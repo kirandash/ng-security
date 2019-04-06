@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-security';
+  harmfulCode = 'Some text here <script>alert("This is some really harmful code!")</script> <i>Some itallic text to check html</i>';
 }
