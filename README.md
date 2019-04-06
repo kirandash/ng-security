@@ -32,3 +32,8 @@ Modify package.json
     "start": "nodemon ./index.js --exec babel-node -e js"
 },
 To auto start the server with nodemon (nodemon ./index.js)  --exec babel-node -e js(allows ES6 code in our server)
+
+### 5. Create API endpoint and install POSTMAN
+create endpoint with app.get() and install postman
+
+Install postman and do a get call at http://localhost:4200/courses/ to verify if it returns the json data
